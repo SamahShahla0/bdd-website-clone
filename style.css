@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*, ::after, ::before {
+    box-sizing: inherit;
+}
 html{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -231,13 +234,13 @@ h5{
 /* join section */
 .join{
     display: flex;
-    padding: 5%;
+    padding-bottom: 5%;
     position: relative;
     display: block;
     background-color: #fff;
     height: 100%;
-    padding-top: 0%;
-    padding-left: 0%;
+    padding-right: 0%;
+    
 }
 .join-heading{
     text-align: center;
@@ -248,9 +251,61 @@ h5{
     list-style: none;
 }
 .grouped{
-    display: flex
+    display: flex;
+    flex-grow: grow;
+    margin-right: 0%;
+    height: auto
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.grouped>div{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 1px;
+}
+grouped>div:h5{
+    font-weight: bolder;
+    font-size:large;
 }
 
+.grouped>div:first-child{
+    margin-right: 40px;
+
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+.push-inside{
+    padding: 1%;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+#join-bdd-img{
+    height: 50%;
+    width: 50%;
+}
+.list-style.list-img {
+    list-style-image: url("./images/bullet5.png");
+}
 .pricing:hover {
     box-shadow: 0px 6px 32px 0px rgb(0 0 0 / 13%);
     transform: translateY(-5px);
@@ -273,7 +328,17 @@ h5{
     box-shadow: 0px 4px 15px 0px rgb(0 0 0 / 6%);
     transition: all 200ms linear;
 }
-background-image: url("./images/join-bdd-1.png");
+.move-group{
+    display: block;
+    
+}
+.bb{
+    font-weight: 900;
+    font-size: 18;
+    color: #646464;
+}
+
+
 
 
 
@@ -283,6 +348,7 @@ background-image: url("./images/join-bdd-1.png");
 .container{
     padding: 0 6vh;
 }
+
 .menu-wrap {
     position: fixed;
     width: 100%;
@@ -307,6 +373,7 @@ background-image: url("./images/join-bdd-1.png");
     background-color:#0078BE ;
     color: #fff;
     font-weight: 400;
+    border-radius: 30px
 }
 .btn-large{
     font-size: ;
@@ -315,10 +382,29 @@ background-image: url("./images/join-bdd-1.png");
 .bold{
     font-weight: bolder;
 }
+.btn-long {
+    padding: 0.8rem 2rem;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.mb-1{
+    margin-bottom: 40px;
+}
+
 .section{
     height: auto;
     margin-top: 0;
     text-align: center;
+}
+.text-right{
+    text-align: right!important;;
 }
 
 
