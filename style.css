@@ -67,7 +67,7 @@ img{
 
 .hero-heading{
     font-size: 3rem;
-    font-family: 'The Mix Black' sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-align: center!important;
     height: 50%;
     margin-bottom: 0.6rem;
@@ -78,6 +78,111 @@ img{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* Foundations */
+
+.foundations{
+    background-color: #f5f5f5;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: block;
+
+}
+.foundations-content{
+    position: relative;
+    width: 100vw;
+    margin-left: 0%;
+    margin-right: 7%;
+    letter-spacing: 1px;
+    height:100% ;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0.6rem;
+    line-height: 1;
+    color: #212121;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    
+}
+.titles{
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'The Mix Black' sans-serif;
+}
+
+.main-title {
+    margin-bottom: 2.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.justify-content-center{
+    justify-content: center!important;
+}
+
+.foundations-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    margin: 10px;
+    text-align: center;
+    height: 100%;
+}
+.foundation-bg{
+    display: flex;
+    background-color: #f5f5f5;
+    height: auto;
+    margin:0px;
+
+}
+.foundation{
+    height: 370px;
+    background-color: #fff;
+    margin:10px;
+    padding:12%;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.mb-0 {
+    margin-bottom: 2!important;
+    font-family: 'Crimson Text', serif;
+    color: dimgrey;
+}
+h5{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.25;
+    color: #212121;
+}
+
+#smart-design-image{
+    width:100px;
+}
+#sustainability-img{
+    width: 110px;
+}
+#well-being-image{
+    width: 150px;
+    margin-top: 12%;
+}
+
 
 
 /* Utilities */
@@ -117,7 +222,6 @@ img{
 .bold{
     font-weight: bolder;
 }
-
 
 
 /* Media Query */
