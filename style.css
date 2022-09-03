@@ -248,11 +248,9 @@ h5{
     list-style: none;
 }
 .grouped{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
+    display: flex
 }
+
 .pricing:hover {
     box-shadow: 0px 6px 32px 0px rgb(0 0 0 / 13%);
     transform: translateY(-5px);
