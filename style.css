@@ -195,6 +195,13 @@ h5{
 }
 #video-block{
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/parallax-4.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-position: 50% -413px;"
 }
 .section{
     height: 90vh;
@@ -212,7 +219,9 @@ h5{
     color: #fff;
     font-size: 30px;
     font-family:  'Work Sans', sans-serif;
+    
 }
+
 
 
 
