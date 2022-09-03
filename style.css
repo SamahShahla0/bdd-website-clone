@@ -16,6 +16,10 @@ body{
 img{
     height: 100%;
 }
+div {
+    display: block;
+}
+
 
 /* Nav bar */
 .top-nav{
@@ -42,6 +46,9 @@ img{
     margin-right: 20px;
     cursor: pointer;
 }
+.links > li:hover {
+    background-color: #b9b9b9;
+  }
 
 .links > li:last-child{
     margin-right: 0px;
@@ -203,11 +210,7 @@ h5{
     width: 100%;
     background-position: 50% -413px;"
 }
-.section{
-    height: 90vh;
-    margin-top: 0;
-    text-align: center;
-}
+
 .section-content{
     padding:1%;
     position: relative;
@@ -264,6 +267,13 @@ h5{
 .bold{
     font-weight: bolder;
 }
+.section{
+    height: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+
 
 
 /* Media Query */
