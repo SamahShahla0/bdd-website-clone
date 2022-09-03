@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    -webkit-text-size-adjust: 100%;
+}
 body{
     font-family: Sans-serif;
 }
@@ -16,8 +19,10 @@ img{
 .top-nav{
     display:flex;
     justify-content: space-between;
-    height: 80px;
+    height: 125px;
+    padding: 1% 3.5%;
 }
+
 .links{
     list-style: none;
     display: flex;
@@ -43,10 +48,35 @@ img{
 
 /* hero */
 .hero{
-    background: url("./images/slide8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: #fff;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/hero-background.jpg"); ;
+}
+
+.hero-content{
+    padding: 20vh 0 10vh 0; 
+    width: 90vw;
+    margin:3% 2.5%;
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.hero-heading{
+    font-size: 3rem;
+    font-family: 'The Mix Black' sans-serif;
+    text-align: center!important;
+    height: 50%;
+    margin-bottom: 0.6rem;
+    line-height: 3.2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -65,6 +95,7 @@ img{
 }
 .btn{
     padding: 14px 10px;
+    cursor: pointer;
     border: none;
     text-decoration: none;
     line-height: 1.25;
@@ -79,8 +110,13 @@ img{
     color: #fff;
     font-weight: 400;
 }
-
-
+.btn-large{
+    font-size: ;
+    paddinf: 14px 10px;
+}
+.bold{
+    font-weight: bolder;
+}
 
 
 
