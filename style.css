@@ -338,6 +338,82 @@ li{
     color: #646464;
 }
 
+/* preferred section */
+.preferred{
+    
+    align-items: center;
+    background-image: url("./images/parallax-light.jpg");
+}
+.preferred-content{
+    padding: 3%;
+    margin-top: 5px;
+}
+.preferred-for{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.h3-pad{
+    padding: 1%;
+    text-align: center;
+}
+.contained-in{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    width:100%;
+}
+.pref{
+    margin:50px;
+    padding: 1%;
+}
+.contained-in>div:first-child{
+    margin-left: 10%;
+    margin-top: 0px;
+}
+.contained-in>div:nth-child(2){
+    margin-top: 25px;
+}
+.contained-in>div:nth-child(3){
+    margin-top: 45px;
+}
+.contained-in>div:last-child{
+    margin-top: 65px;
+    margin-left: 0;
+}
+.imgs-preferred{
+    width:100%;
+    justify-content: center;
+}
+.stats-preferred>p{
+    margin-top: 1%;
+    text-align: center;
+    vertical-align: top;
+    line-height: 5vh;
+    height: 5vh;
+    -webkit-text-stroke-width: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5vh;
+    font-weight: 200;
+    color: transparent;
+}
+
+.titles-preferred{
+    margin-top: 20px;
+    text-overflow: clip;
+    text-align: center;
+    color: #333;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    
+}
 
 
 
