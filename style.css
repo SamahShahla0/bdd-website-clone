@@ -414,6 +414,14 @@ li{
     font-family: 'Work Sans', sans-serif;
     
 }
+.parallax {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
 
 
 
