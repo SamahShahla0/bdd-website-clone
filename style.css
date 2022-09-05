@@ -418,12 +418,77 @@ li{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 100%;
+    
+}
+ /* trending */
+.over-hide {
+    overflow: hidden;
+}
+.background-image-cover-left {
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-grey {
+    background-color: #f5f5f5;
+}
+.trending{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.trending-content{
+    margin: 10px;
+    align-items: center;
+    padding: 1%;
+    width: 80vw;
+    
+
+    
 }
 
-
+.slideshows{
+    display: flex;
+    margin: 1%;
+}
+.slide{
+    margin-left: 10px;
+    width: 30vw;
+    height: 55vh;
+    margin-right: 30px;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+.slide-content{
+    margin: 20px;
+}
+.trending-button{
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+}
+.imgs-slide{
+    width: 100%;
+    margin-bottom: 1rem!important;
+    height: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 0;
+    border-style: none;
+}
+#title-trending{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.skill-title{
+   
+}
 
 
 
@@ -444,6 +509,7 @@ li{
 .btn{
     padding: 14px 10px;
     cursor: pointer;
+    text-transform: uppercase;
     border: none;
     text-decoration: none;
     line-height: 1.25;
@@ -456,12 +522,12 @@ li{
 .btn-blue{
     background-color:#0078BE ;
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     border-radius: 30px
 }
 .btn-large{
     font-size: ;
-    paddinf: 14px 10px;
+    padding: 14px 10px;
 }
 .bold{
     font-weight: bolder;
